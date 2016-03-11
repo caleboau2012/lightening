@@ -1,0 +1,74 @@
+{
+    "substations" : [
+        {
+            "ID" : 1,
+            "coord" : {
+                "lat" :  6.60416666667,
+                "lng" : 3.36611111111
+            },
+            "data" : {
+                "name": "Avogadro's law"
+            },
+            "circuits" : [
+                [
+                    {
+                        "data" : {
+                            "name": "Avogadro's law"
+                        },
+                        "lat" : 6.60416666667,
+                        "lng" : 3.36611111111
+                    },
+                    {
+                        "data" : {
+                            "name": "Next to 40 Olanrewaju"
+                        },
+                        "lat" : 6.60411663615,
+                        "lng" : 3.36611111111
+                    },
+                    {
+                        "data" : {
+                            "name" : "Opp 23B Olanrewaju"
+                        },
+                        "lat" : 6.60388888889,
+                        "lng" : 3.36583333333
+                    },
+                    {
+                        "data" : {
+                            "name" : "28 Olanrewaju (10E)"
+                        },
+                        "lat" : 6.60305555556,
+                        "lng" : 3.36527777778
+                    },
+                    {
+                        "data" : {
+                            "name" : "Total Filling Station (Entrance)"
+                        },
+                        "lat" : 6.60,
+                        "lng" : 3.36527777778
+                    },
+                    {
+                        "data" : {
+                            "name" : "Access Bank"
+                        },
+                        "lat" : 6.59944444444,
+                        "lng" : 3.36555555556
+                    },
+                    {
+                        "data" : {
+                            "name" : "Fidelity Bank"
+                        },
+                        "lat" : 6.59944444444,
+                        "lng" : 3.36583333333
+                    },
+                    {
+                        "data" : {
+                            "name" : "Climate Aders ( Before Diamond Bank Billboard)"
+                        },
+                        "lat" : 6.59888888889,
+                        "lng" : 3.36611111111
+                    }
+                ]
+            ]
+        }
+    ]
+}
