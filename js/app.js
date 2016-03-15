@@ -24,12 +24,12 @@ var App = {
     initMap: function(){
         //console.log(App.getGoogleCords(63, 30, 22.1178));
         App.CONSTANTS.map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 14,
+            zoom: 15,
             center: {
                 lat: App.CONSTANTS.center.lat,
                 lng: App.CONSTANTS.center.long
             },
-            mapTypeId: google.maps.MapTypeId.HYBRID
+            mapTypeId: google.maps.MapTypeId.ROADMAP
         });
     },
     getData: function(){
@@ -56,7 +56,7 @@ var App = {
         var labelHTML = '<div><strong>' + data.name + '</strong></div>';
         var path = google.maps.SymbolPath.BACKWARD_CLOSED_ARROW;
 
-        App.showMarker(position, labelHTML, path, 1);
+        App.showMarker(position, labelHTML, path, 2);
     },
     drawCircuit: function(circuit){
         App.CONSTANTS.circuit = new google.maps.Polyline({
