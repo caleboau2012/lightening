@@ -2,104 +2,361 @@
     "substations": [
         {
             "ID": 1,
-            "coord": {"lat": 6.6030555555556, "lng": 3.3625},
+            "coord": {"lat": 6.60416666667, "lng": 3.36611111111},
             "data": {"name": "The Substation"},
             "circuits": [
                 [
-                    {"data": {"name": "Next to 40 Olanrewaju"}, "lng": 3.3661111111111, "lat": 6.6041666666667},
-                    {"data": {"name": "Opp 23B  Olanrewaju"}, "lng": 3.3658333333333, "lat": 6.6038888888889},
-                    {"data": {"name": "28 Olanrewaju (10E)"}, "lng": 3.3652777777778, "lat": 6.6030555555556},
-                    {"data": {"name": "Access Bank"}, "lng": 3.3655555555556, "lat": 6.5994444444444},
-                    {"data": {"name": "Fidelity Bank"}, "lng": 3.3658333333333, "lat": 6.5994444444444},
                     {
-                        "data": {"name": "Climate Aders ( Before Diamond Bank Billboard)"},
+                        "data": {"name": "Next to 40 Olanrewaju", "fittings": 1, "power": 250},
+                        "lng": 3.3661111111111,
+                        "lat": 6.6041666666667
+                    },
+                    {
+                        "data": {"name": "Opp 23B  Olanrewaju", "fittings": 1, "power": 250},
+                        "lng": 3.3658333333333,
+                        "lat": 6.6038888888889
+                    },
+                    {
+                        "data": {"name": "28 Olanrewaju (10E)", "fittings": 1, "power": 250},
+                        "lng": 3.3652777777778,
+                        "lat": 6.6030555555556
+                    },
+                    {
+                        "data": {"name": "Total Fillinf Station (Entrance)", "fittings": 2, "power": 500},
+                        "lng": 3.3591666666667,
+                        "lat": 6.6
+                    },
+                    {
+                        "data": {"name": "Access Bank", "fittings": 2, "power": 500},
+                        "lng": 3.3655555555556,
+                        "lat": 6.5994444444444
+                    },
+                    {
+                        "data": {"name": "Fidelity Bank", "fittings": 2, "power": 500},
+                        "lng": 3.3658333333333,
+                        "lat": 6.5994444444444
+                    },
+                    {
+                        "data": {"name": "Climate Aders ( Before Diamond Bank Billboard)", "fittings": 2, "power": 500},
                         "lng": 3.3661111111111,
                         "lat": 6.5988888888889
                     },
-                    {"data": {"name": "28 Olanrewaju"}, "lng": 3.3655555555556, "lat": 6.6036111111111},
-                    {"data": {"name": "Junction Akingbola Olanrewaju"}, "lng": 3.3655555555556, "lat": 6.6033333333333},
-                    {"data": {"name": "16 Olanrewaju"}, "lng": 3.3647222222222, "lat": 6.6025},
-                    {"data": {"name": "Appstolic Church, Oregun"}, "lng": 3.3644444444444, "lat": 6.6005555555556},
-                    {"data": {"name": "43 Kudirat Abiola"}, "lng": 3.365, "lat": 6.6},
-                    {"data": {"name": "Ola Adeshega Street"}, "lng": 3.3652777777778, "lat": 6.5997222222222},
-                    {"data": {"name": "57 Kudirat Abiola"}, "lng": 3.3661111111111, "lat": 6.5991666666667}
-                ],
-                [
-                    {"data": {"name": "Foursqure Gospel"}, "lng": 3.3558333333333, "lat": 6.6086111111111},
-                    {"data": {"name": "Morrison Junction (1)"}, "lng": 3.3566666666667, "lat": 6.6086111111111},
-                    {"data": {"name": "Pink Building (1)"}, "lng": 3.3572222222222, "lat": 6.6083333333333},
-                    {"data": {"name": "Mechanic Workshop (1)"}, "lng": 3.3575, "lat": 6.6080555555556},
-                    {"data": {"name": "8A (Purple Wall)"}, "lng": 3.3586111111111, "lat": 6.6075},
-                    {"data": {"name": "No Data"}, "lng": 3.3555555555556, "lat": 6.6088888888889},
-                    {"data": {"name": "No Data"}, "lng": 3.3561111111111, "lat": 6.6086111111111},
-                    {"data": {"name": "No Data"}, "lng": 3.3563888888889, "lat": 6.6086111111111},
-                    {"data": {"name": "Omatek"}, "lng": 3.3563888888889, "lat": 6.6083333333333},
-                    {"data": {"name": "8A Kudirat Abiola"}, "lng": 3.3583333333333, "lat": 6.6075},
-                    {"data": {"name": "Morrison Junction (2)"}, "lng": 3.3566666666667, "lat": 6.6083333333333},
-                    {"data": {"name": "Pink Building (2)"}, "lng": 3.3575, "lat": 6.6083333333333},
-                    {"data": {"name": "Mechanic Workshop"}, "lng": 3.3583333333333, "lat": 6.6080555555556},
-                    {"data": {"name": "Classifine Event Place 7A"}, "lng": 3.3588888888889, "lat": 6.6072222222222}
-                ],
-                [
-                    {"data": {"name": "No Data"}, "lng": 3.3530555555556, "lat": 6.6091666666667},
-                    {"data": {"name": "Dream Home Furniture"}, "lng": 3.3541666666667, "lat": 6.6091666666667},
                     {
-                        "data": {"name": "Obafemi Awolowo- Kudirat Junction"},
-                        "lng": 3.3530555555556,
-                        "lat": 6.6094444444444
+                        "data": {"name": "28 Olanrewaju", "fittings": 1, "power": 250},
+                        "lng": 3.3655555555556,
+                        "lat": 6.6036111111111
                     },
-                    {"data": {"name": "Ikeja Electric BU"}, "lng": 3.3533333333333, "lat": 6.6094444444444},
-                    {"data": {"name": "15B Kudirat Abiola"}, "lng": 3.3536111111111, "lat": 6.6091666666667},
-                    {"data": {"name": "Mobil Filling Station"}, "lng": 3.3538888888889, "lat": 6.6088888888889},
-                    {"data": {"name": "Network Home"}, "lng": 3.3544444444444, "lat": 6.6088888888889},
-                    {"data": {"name": "No Data"}, "lng": 3.3547222222222, "lat": 6.6088888888889},
-                    {"data": {"name": "Kedi Healthcare"}, "lng": 3.355, "lat": 6.6088888888889},
-                    {"data": {"name": "Adjacent Kedi Healthcare "}, "lng": 3.3552777777778, "lat": 6.6094444444444}
-                ],
-                [
-                    {"data": {"name": "Perculiar Cars Ltd"}, "lng": 3.3627777777778, "lat": 6.6025},
                     {
-                        "data": {"name": "Sanyaolu Street (Kudirat Abiola)"},
-                        "lng": 3.3633333333333,
-                        "lat": 6.6019444444444
+                        "data": {"name": "Junction Akingbola Olanrewaju", "fittings": 1, "power": 250},
+                        "lng": 3.3655555555556,
+                        "lat": 6.6033333333333
                     },
-                    {"data": {"name": "25 Kudirat Abiola"}, "lng": 3.3636111111111, "lat": 6.6013888888889},
-                    {"data": {"name": "Ibijoke Street"}, "lng": 3.3641666666667, "lat": 6.6008333333333},
-                    {"data": {"name": "Kobis Resturant "}, "lng": 3.3630555555556, "lat": 6.6025},
-                    {"data": {"name": "19 Kudirat Abiola "}, "lng": 3.3633333333333, "lat": 6.6016666666667},
                     {
-                        "data": {"name": "40 Oregun rd, (Alh. Muili Str, Junction)"},
+                        "data": {"name": "16 Olanrewaju", "fittings": 1, "power": 250},
+                        "lng": 3.3647222222222,
+                        "lat": 6.6025
+                    },
+                    {
+                        "data": {"name": "Appstolic Church, Oregun", "fittings": 3, "power": 750},
                         "lng": 3.3644444444444,
                         "lat": 6.6005555555556
                     },
-                    {"data": {"name": "Zaheed Mall"}, "lng": 3.3633333333333, "lat": 6.6022222222222},
-                    {"data": {"name": "Lawal Street"}, "lng": 3.3636111111111, "lat": 6.6022222222222},
-                    {"data": {"name": "Oregun Primary Health Centre"}, "lng": 3.3638888888889, "lat": 6.6008333333333}
+                    {"data": {"name": "43 Kudirat Abiola", "fittings": 2, "power": 500}, "lng": 3.365, "lat": 6.6},
+                    {
+                        "data": {"name": "Ola Adeshega Street", "fittings": 2, "power": 500},
+                        "lng": 3.3652777777778,
+                        "lat": 6.5997222222222
+                    },
+                    {
+                        "data": {"name": "57 Kudirat Abiola", "fittings": 2, "power": 500},
+                        "lng": 3.3661111111111,
+                        "lat": 6.5991666666667
+                    }
                 ],
                 [
-                    {"data": {"name": "Mid - Clay Industry Nig ltd"}, "lng": 3.3616666666667, "lat": 6.6041666666667},
-                    {"data": {"name": "End - Clay Industry Nig Ltd"}, "lng": 3.3619444444444, "lat": 6.6036111111111},
-                    {"data": {"name": "Dave Retails"}, "lng": 3.3627777777778, "lat": 6.6033333333333},
-                    {"data": {"name": "Mid - Clay Industry Nig ltd"}, "lng": 3.3619444444444, "lat": 6.6038888888889},
-                    {"data": {"name": "Mid - Clay Industry Nig ltd"}, "lng": 3.3619444444444, "lat": 6.6041666666667},
-                    {"data": {"name": "Oje Imianvan street"}, "lng": 3.3619444444444, "lat": 6.6030555555556},
-                    {"data": {"name": "Sub Station (Oregun)"}, "lng": 3.3625, "lat": 6.6030555555556}
+                    {
+                        "data": {"name": "Foursqure Gospel", "fittings": 2, "power": 500},
+                        "lng": 3.3558333333333,
+                        "lat": 6.6086111111111
+                    },
+                    {
+                        "data": {"name": "Morrison Junction (1)", "fittings": 2, "power": 500},
+                        "lng": 3.3566666666667,
+                        "lat": 6.6086111111111
+                    },
+                    {
+                        "data": {"name": "Pink Building (1)", "fittings": 2, "power": 500},
+                        "lng": 3.3572222222222,
+                        "lat": 6.6083333333333
+                    },
+                    {
+                        "data": {"name": "Mechanic Workshop (1)", "fittings": 2, "power": 500},
+                        "lng": 3.3575,
+                        "lat": 6.6080555555556
+                    },
+                    {
+                        "data": {"name": "8A (Purple Wall)", "fittings": 2, "power": 500},
+                        "lng": 3.3586111111111,
+                        "lat": 6.6075
+                    },
+                    {
+                        "data": {"name": "Cornerstone Real Estate", "fittings": 2, "power": 500},
+                        "lng": 3.3555555555556,
+                        "lat": 6.6088888888889
+                    },
+                    {
+                        "data": {"name": "Gloryland Health Way", "fittings": 2, "power": 500},
+                        "lng": 3.3561111111111,
+                        "lat": 6.6086111111111
+                    },
+                    {
+                        "data": {"name": "No Data", "fittings": 2, "power": 500},
+                        "lng": 3.3563888888889,
+                        "lat": 6.6086111111111
+                    },
+                    {
+                        "data": {"name": "Omatek", "fittings": 2, "power": 500},
+                        "lng": 3.3563888888889,
+                        "lat": 6.6083333333333
+                    },
+                    {
+                        "data": {"name": "8A Kudirat Abiola", "fittings": 2, "power": 500},
+                        "lng": 3.3583333333333,
+                        "lat": 6.6075
+                    },
+                    {
+                        "data": {"name": "Morrison Junction (2)", "fittings": 2, "power": 500},
+                        "lng": 3.3566666666667,
+                        "lat": 6.6083333333333
+                    },
+                    {
+                        "data": {"name": "Pink Building (2)", "fittings": 2, "power": 500},
+                        "lng": 3.3575,
+                        "lat": 6.6083333333333
+                    },
+                    {
+                        "data": {"name": "Mechanic Workshop", "fittings": 2, "power": 500},
+                        "lng": 3.3583333333333,
+                        "lat": 6.6080555555556
+                    },
+                    {
+                        "data": {"name": "Classifine Event Place 7A", "fittings": 2, "power": 500},
+                        "lng": 3.3588888888889,
+                        "lat": 6.6072222222222
+                    }
                 ],
                 [
-                    {"data": {"name": "Plot 6 sign (Boulos)"}, "lng": 3.3594444444444, "lat": 6.6066666666667},
-                    {"data": {"name": "Adebayo Akande (1)"}, "lng": 3.36, "lat": 6.6061111111111},
-                    {"data": {"name": "2 Blocks down Lafarge"}, "lng": 3.3611111111111, "lat": 6.6055555555556},
-                    {"data": {"name": "End - 2  Block down Lafarge"}, "lng": 3.3627777777778, "lat": 6.6052777777778},
-                    {"data": {"name": "7B Kudirat Abiola"}, "lng": 3.3588888888889, "lat": 6.6069444444444},
-                    {"data": {"name": "Adebayo Akande ( Btw Pole 28 - 30)"}, "lng": 3.36, "lat": 6.6063888888889},
-                    {"data": {"name": "Lafarge Cement - Middle"}, "lng": 3.3605555555556, "lat": 6.6058333333333},
-                    {"data": {"name": "Middle -2 blocks down Lafarge"}, "lng": 3.3616666666667, "lat": 6.6055555555556},
-                    {"data": {"name": "Clay Industry Nig Ltd"}, "lng": 3.3616666666667, "lat": 6.6044444444444},
-                    {"data": {"name": "Boulos Ent"}, "lng": 3.3597222222222, "lat": 6.6066666666667},
-                    {"data": {"name": "Boulos End Plot 41"}, "lng": 3.3597222222222, "lat": 6.6063888888889},
-                    {"data": {"name": "Lafarge Concrete"}, "lng": 3.3602777777778, "lat": 6.6058333333333},
-                    {"data": {"name": "Lafarge Cement End"}, "lng": 3.3608333333333, "lat": 6.6055555555556},
-                    {"data": {"name": "Household of God street"}, "lng": 3.3613888888889, "lat": 6.605}
+                    {
+                        "data": {"name": "No Data", "fittings": 2, "power": 500},
+                        "lng": 3.3530555555556,
+                        "lat": 6.6091666666667
+                    },
+                    {
+                        "data": {"name": "Dream Home Furniture", "fittings": 2, "power": 500},
+                        "lng": 3.3541666666667,
+                        "lat": 6.6091666666667
+                    },
+                    {
+                        "data": {"name": "Obafemi Awolowo- Kudirat Junction", "fittings": 2, "power": 500},
+                        "lng": 3.3530555555556,
+                        "lat": 6.6094444444444
+                    },
+                    {
+                        "data": {"name": "Ikeja Electric BU", "fittings": 2, "power": 500},
+                        "lng": 3.3533333333333,
+                        "lat": 6.6094444444444
+                    },
+                    {
+                        "data": {"name": "15B Kudirat Abiola", "fittings": 2, "power": 500},
+                        "lng": 3.3536111111111,
+                        "lat": 6.6091666666667
+                    },
+                    {
+                        "data": {"name": "Mobil Filling Station", "fittings": 2, "power": 500},
+                        "lng": 3.3538888888889,
+                        "lat": 6.6088888888889
+                    },
+                    {
+                        "data": {"name": "Network Home", "fittings": 2, "power": 500},
+                        "lng": 3.3544444444444,
+                        "lat": 6.6088888888889
+                    },
+                    {
+                        "data": {"name": "Hercro Solar Energy", "fittings": 2, "power": 500},
+                        "lng": 3.3547222222222,
+                        "lat": 6.6088888888889
+                    },
+                    {
+                        "data": {"name": "Kedi Healthcare", "fittings": 2, "power": 500},
+                        "lng": 3.355,
+                        "lat": 6.6088888888889
+                    },
+                    {
+                        "data": {"name": "Adjacent Kedi Healthcare ", "fittings": 3, "power": 750},
+                        "lng": 3.3552777777778,
+                        "lat": 6.6094444444444
+                    }
+                ],
+                [
+                    {
+                        "data": {"name": "Perculiar Cars Ltd", "fittings": 3, "power": 750},
+                        "lng": 3.3627777777778,
+                        "lat": 6.6025
+                    },
+                    {
+                        "data": {"name": "Sanyaolu Street (Kudirat Abiola)", "fittings": 2, "power": 500},
+                        "lng": 3.3633333333333,
+                        "lat": 6.6019444444444
+                    },
+                    {
+                        "data": {"name": "25 Kudirat Abiola", "fittings": 2, "power": 500},
+                        "lng": 3.3636111111111,
+                        "lat": 6.6013888888889
+                    },
+                    {
+                        "data": {"name": "Ibijoke Street", "fittings": 2, "power": 500},
+                        "lng": 3.3641666666667,
+                        "lat": 6.6008333333333
+                    },
+                    {
+                        "data": {"name": "Kobis Resturant ", "fittings": 2, "power": 500},
+                        "lng": 3.3630555555556,
+                        "lat": 6.6025
+                    },
+                    {
+                        "data": {"name": "19 Kudirat Abiola ", "fittings": 2, "power": 500},
+                        "lng": 3.3633333333333,
+                        "lat": 6.6016666666667
+                    },
+                    {
+                        "data": {"name": "40 Oregun rd, (Alh. Muili Str, Junction)", "fittings": 3, "power": 750},
+                        "lng": 3.3644444444444,
+                        "lat": 6.6005555555556
+                    },
+                    {
+                        "data": {"name": "Zaheed Mall", "fittings": 2, "power": 500},
+                        "lng": 3.3633333333333,
+                        "lat": 6.6022222222222
+                    },
+                    {
+                        "data": {"name": "Lawal Street", "fittings": 2, "power": 500},
+                        "lng": 3.3636111111111,
+                        "lat": 6.6022222222222
+                    },
+                    {
+                        "data": {"name": "Oregun Primary Health Centre", "fittings": 2, "power": 500},
+                        "lng": 3.3638888888889,
+                        "lat": 6.6008333333333
+                    }
+                ],
+                [
+                    {
+                        "data": {"name": "Mid - Clay Industry Nig ltd", "fittings": 2, "power": 500},
+                        "lng": 3.3616666666667,
+                        "lat": 6.6041666666667
+                    },
+                    {
+                        "data": {"name": "End - Clay Industry Nig Ltd", "fittings": 2, "power": 500},
+                        "lng": 3.3619444444444,
+                        "lat": 6.6036111111111
+                    },
+                    {
+                        "data": {"name": "Dave Retails", "fittings": 2, "power": 500},
+                        "lng": 3.3627777777778,
+                        "lat": 6.6033333333333
+                    },
+                    {
+                        "data": {"name": "Mid - Clay Industry Nig ltd", "fittings": 2, "power": 500},
+                        "lng": 3.3619444444444,
+                        "lat": 6.6038888888889
+                    },
+                    {
+                        "data": {"name": "Mid - Clay Industry Nig ltd", "fittings": 2, "power": 500},
+                        "lng": 3.3619444444444,
+                        "lat": 6.6041666666667
+                    },
+                    {
+                        "data": {"name": "Oje Imianvan street", "fittings": 2, "power": 500},
+                        "lng": 3.3619444444444,
+                        "lat": 6.6030555555556
+                    },
+                    {
+                        "data": {"name": "Sub Station (Oregun)", "fittings": 3, "power": 750},
+                        "lng": 3.3625,
+                        "lat": 6.6030555555556
+                    }
+                ],
+                [
+                    {
+                        "data": {"name": "Plot 6 sign (Boulos)", "fittings": 2, "power": 500},
+                        "lng": 3.3594444444444,
+                        "lat": 6.6066666666667
+                    },
+                    {
+                        "data": {"name": "Adebayo Akande (1)", "fittings": 2, "power": 500},
+                        "lng": 3.36,
+                        "lat": 6.6061111111111
+                    },
+                    {
+                        "data": {"name": "2 Blocks down Lafarge", "fittings": 2, "power": 500},
+                        "lng": 3.3611111111111,
+                        "lat": 6.6055555555556
+                    },
+                    {
+                        "data": {"name": "End - 2  Block down Lafarge", "fittings": 2, "power": 500},
+                        "lng": 3.3627777777778,
+                        "lat": 6.6052777777778
+                    },
+                    {
+                        "data": {"name": "7B Kudirat Abiola", "fittings": 2, "power": 500},
+                        "lng": 3.3588888888889,
+                        "lat": 6.6069444444444
+                    },
+                    {
+                        "data": {"name": "Adebayo Akande ( Btw Pole 28 - 30)", "fittings": 2, "power": 500},
+                        "lng": 3.36,
+                        "lat": 6.6063888888889
+                    },
+                    {
+                        "data": {"name": "Lafarge Cement - Middle", "fittings": 2, "power": 500},
+                        "lng": 3.3605555555556,
+                        "lat": 6.6058333333333
+                    },
+                    {
+                        "data": {"name": "Middle -2 blocks down Lafarge", "fittings": 2, "power": 500},
+                        "lng": 3.3616666666667,
+                        "lat": 6.6055555555556
+                    },
+                    {
+                        "data": {"name": "Clay Industry Nig Ltd", "fittings": 2, "power": 500},
+                        "lng": 3.3616666666667,
+                        "lat": 6.6044444444444
+                    },
+                    {
+                        "data": {"name": "Boulos Ent", "fittings": 2, "power": 500},
+                        "lng": 3.3597222222222,
+                        "lat": 6.6066666666667
+                    },
+                    {
+                        "data": {"name": "Boulos End Plot 41", "fittings": 2, "power": 500},
+                        "lng": 3.3597222222222,
+                        "lat": 6.6063888888889
+                    },
+                    {
+                        "data": {"name": "Lafarge Concrete", "fittings": 2, "power": 500},
+                        "lng": 3.3602777777778,
+                        "lat": 6.6058333333333
+                    },
+                    {
+                        "data": {"name": "Lafarge Cement End", "fittings": 2, "power": 500},
+                        "lng": 3.3608333333333,
+                        "lat": 6.6055555555556
+                    },
+                    {
+                        "data": {"name": "Household of God street", "fittings": 2, "power": 500},
+                        "lng": 3.3613888888889,
+                        "lat": 6.605
+                    }
                 ]
             ]
         }

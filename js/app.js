@@ -51,8 +51,8 @@ var App = {
         });
     },
     showSubstation: function(position, data){
-        var labelHTML = "<div>" + data.name +
-            "&nbsp; <button class='btn btn-xs btn-default' onclick='App.showSubstationData();'>See More...</button><div>";
+        var labelHTML = "<div><strong>" + data.name +
+            "</strong>&nbsp; <button class='btn btn-xs btn-default' onclick='App.showSubstationData();'>See More...</button><div>";
         //console.log(labelHTML);
         var path = google.maps.SymbolPath.CIRCLE;
 
@@ -61,7 +61,7 @@ var App = {
     showSubstationData: function(){
         $.getJSON(App.CONSTANTS.substationDataURL, function(data){
             console.log(data);
-            var HTML = "<div class='table-responsive'><table class='table table-stripped table-responsive'>" +
+            var HTML = "<div class='table-responsive'><table class='table table-striped table-responsive'>" +
                 "<thead><tr>" +
                     "<th>Item</th><th>Manufacturer</th><th>Model Number</th><th>Year</th><th>Fuel Type</th>" +
                     "<th>Country</th><th>Rating</th><th>ISO</th><th>Owner</th>" +
@@ -110,7 +110,12 @@ var App = {
         });
     },
     showPole: function(position, data){
-        var labelHTML = '<div><strong>' + data.name + '</strong></div>';
+        //console.log(data);
+        var labelHTML = '<div>' +
+            '<h4>' + data.name + '</h4><hr>' +
+            '<p><strong>No of Fittings:</strong> <span>' + data.fittings +
+            '</span></p>' +
+            '<p><strong>Power Rating:</strong> <span>' +  data.power + '</span></p></div>';
         var path = google.maps.SymbolPath.BACKWARD_CLOSED_ARROW;
 
         App.showMarker(position, labelHTML, path, 2, 'green');

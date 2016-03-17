@@ -29,12 +29,16 @@ $substation = array(
 $circuit = array(array(), array(), array(), array(), array(), array());
 $pole = array();
 
-for($i = 10; $i <= 81; $i++){
+for($i = 10; $i <= 78; $i++){
     switch($sheetData[$i]['B']){
         case 1:
         case 2:
         case 3:
-            $pole['data'] = array("name" => $sheetData[$i]['D']);
+            $pole['data'] = array(
+                "name" => $sheetData[$i]['D'],
+                "fittings" => $sheetData[$i]['G'],
+                "power" => $sheetData[$i]['H']
+            );
             $lngDegree = substr($sheetData[$i]['F'], 0, strpos($sheetData[$i]['F'], "º"));
             $lngMinute = substr($sheetData[$i]['F'], (strpos($sheetData[$i]['F'], " ") + 1), 2);
             $lngSeconds = substr($sheetData[$i]['F'], (strpos($sheetData[$i]['F'], "'") + 2), 2);
@@ -50,7 +54,11 @@ for($i = 10; $i <= 81; $i++){
         case 4:
         case 5:
         case 6:
-            $pole['data'] = array("name" => $sheetData[$i]['D']);
+            $pole['data'] = array(
+                "name" => $sheetData[$i]['D'],
+                "fittings" => $sheetData[$i]['G'],
+                "power" => $sheetData[$i]['H']
+            );
             $lngDegree = substr($sheetData[$i]['F'], 0, strpos($sheetData[$i]['F'], "º"));
             $lngMinute = substr($sheetData[$i]['F'], (strpos($sheetData[$i]['F'], " ") + 1), 2);
             $lngSeconds = substr($sheetData[$i]['F'], (strpos($sheetData[$i]['F'], "'") + 2), 2);
@@ -66,7 +74,11 @@ for($i = 10; $i <= 81; $i++){
         case 7:
         case 8:
         case 9:
-            $pole['data'] = array("name" => $sheetData[$i]['D']);
+            $pole['data'] = array(
+                "name" => $sheetData[$i]['D'],
+                "fittings" => $sheetData[$i]['G'],
+                "power" => $sheetData[$i]['H']
+            );
             $lngDegree = substr($sheetData[$i]['F'], 0, strpos($sheetData[$i]['F'], "º"));
             $lngMinute = substr($sheetData[$i]['F'], (strpos($sheetData[$i]['F'], " ") + 1), 2);
             $lngSeconds = substr($sheetData[$i]['F'], (strpos($sheetData[$i]['F'], "'") + 2), 2);
@@ -82,7 +94,11 @@ for($i = 10; $i <= 81; $i++){
         case 10:
         case 11:
         case 12:
-            $pole['data'] = array("name" => $sheetData[$i]['D']);
+            $pole['data'] = array(
+                "name" => $sheetData[$i]['D'],
+                "fittings" => $sheetData[$i]['G'],
+                "power" => $sheetData[$i]['H']
+            );
             $lngDegree = substr($sheetData[$i]['F'], 0, strpos($sheetData[$i]['F'], "º"));
             $lngMinute = substr($sheetData[$i]['F'], (strpos($sheetData[$i]['F'], " ") + 1), 2);
             $lngSeconds = substr($sheetData[$i]['F'], (strpos($sheetData[$i]['F'], "'") + 2), 2);
@@ -98,7 +114,11 @@ for($i = 10; $i <= 81; $i++){
         case 13:
         case 14:
         case 15:
-            $pole['data'] = array("name" => $sheetData[$i]['D']);
+            $pole['data'] = array(
+                "name" => $sheetData[$i]['D'],
+                "fittings" => $sheetData[$i]['G'],
+                "power" => $sheetData[$i]['H']
+            );
             $lngDegree = substr($sheetData[$i]['F'], 0, strpos($sheetData[$i]['F'], "º"));
             $lngMinute = substr($sheetData[$i]['F'], (strpos($sheetData[$i]['F'], " ") + 1), 2);
             $lngSeconds = substr($sheetData[$i]['F'], (strpos($sheetData[$i]['F'], "'") + 2), 2);
@@ -114,7 +134,11 @@ for($i = 10; $i <= 81; $i++){
         case 16:
         case 17:
         case 18:
-            $pole['data'] = array("name" => $sheetData[$i]['D']);
+            $pole['data'] = array(
+                "name" => $sheetData[$i]['D'],
+                "fittings" => $sheetData[$i]['G'],
+                "power" => $sheetData[$i]['H']
+            );
             $lngDegree = substr($sheetData[$i]['F'], 0, strpos($sheetData[$i]['F'], "º"));
             $lngMinute = substr($sheetData[$i]['F'], (strpos($sheetData[$i]['F'], " ") + 1), 2);
             $lngSeconds = substr($sheetData[$i]['F'], (strpos($sheetData[$i]['F'], "'") + 2), 2);
