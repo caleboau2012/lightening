@@ -1,0 +1,63 @@
+{
+    "substation_data": [
+        {
+            "item": "Transformer",
+            "Manufacturer": "ELPROM TRAFO CH - PLC",
+            "Model Number": 139794,
+            "Year": 2009,
+            "Country": "Bulgaria",
+            "Rating": "200 KVA",
+            "Owner": "LSEB"
+        },
+        {
+            "item": "Ist Generator (Plants)",
+            "Manufacturer": "PERKINS",
+            "Model Number": "A07A711361",
+            "Fuel Type": "Diesel",
+            "Country": "England",
+            "Rating": "120 KVA",
+            "ISO": "8528-3",
+            "Owner": "LSEB"
+        },
+        {
+            "item": "2nd Generator (Plants)",
+            "Manufacturer": "OLYMPIAN",
+            "Model Number": "GEEP110-4",
+            "Year": 2012,
+            "Fuel Type": "Diesel",
+            "Country": "Switzerland",
+            "ISO": "8528-3",
+            "Owner": "LSEB"
+        },
+        {
+            "item": "3rd Generator (Plants)",
+            "Manufacturer": "CUMMINS",
+            "Model Number": "C150 D5",
+            "Year": 2010,
+            "Fuel Type": "Diesel",
+            "Country": "England",
+            "Rating": " 100 Kw",
+            "ISO": "8528-1",
+            "Owner": "LSEB"
+        },
+        {
+            "item": "Old Meter",
+            "Manufacturer": "MBH Power",
+            "Model Number": "3NP06015",
+            "Country": "Nigeria",
+            "Rating": "100\/5",
+            "Owner": "LSEB"
+        },
+        {
+            "item": "New Installed Meter",
+            "Manufacturer": "ENERMAX",
+            "Model Number": 14230043,
+            "Country": "South Africa",
+            "Owner": "POWERTECH NIG"
+        },
+        {"item": "Poles", "Rating": "250 watts", "Owner": "LSEB"},
+        {"item": "Breaker Panel", "Manufacturer": "Telemecanique", "Rating": "100\/5", "Owner": "LSEB"},
+        {"item": "Circuits Control Panel", "Owner": "LSEB"},
+        {"item": "Diesel Tank", "Owner": "LSEB"}
+    ]
+}
