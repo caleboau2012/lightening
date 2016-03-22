@@ -21,8 +21,8 @@ $sheetData = $objPHPExcel->getActiveSheet()->toArray(null,true,true,true);
 
 $substation = array(
     "ID" => 1, "coord" => array(
-        "lat" => 6.60416666667,
-        "lng" => 3.36611111111
+        "lat" => 6.6030555555556,
+        "lng" => 3.3625
     ),
     "data" => array( "name" => "The Substation")
 );

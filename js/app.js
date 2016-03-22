@@ -18,9 +18,6 @@ var App = {
     init: function(){
         this.initMap();
         this.getData();
-        //$('.map-data').delegate('body', 'click', function(e){
-        //    App.showSubstationData();
-        //});
     },
     getGoogleCords: function(degree, minute, seconds){
         return degree + (minute/60) + (seconds/3600);
